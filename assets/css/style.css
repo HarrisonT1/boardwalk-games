@@ -15,6 +15,7 @@
 
 body {
   font-family: var(--primary-font);
+  padding-top: 57.15px; /* Pushes content down so navbar isnt covering */
 }
 
 h1, h2, h3 {
