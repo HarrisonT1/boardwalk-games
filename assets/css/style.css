@@ -94,6 +94,20 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+/* events section */
+
+#student-discount {
+  background-color: var(--highlight-color);
+  color: white;
+  font-weight: bold;
+  padding: 5px 20px;
+  max-width: 400px;
+}
+
+#student-discount p {
+  margin: 0;
+}
+
 /* Game library cards */
 
 #new-games .card,
@@ -117,6 +131,10 @@ h2 {
   color: var(--light-highlight-color);
 }
 
+#contact a {
+  text-decoration: none;
+}
+
 #contact i {
   color: var(--secondary-color);
   font-size: 1.2rem;
@@ -137,18 +155,18 @@ h2 {
   background-color: transparent;
 }
 
-/* Grid visualisation css for testing
-
-.container, .row {
-  border: 2px solid #000000;
-}
-
-.col-12 {
-  border: 2px solid #ffffff;
-  background-color: lightgray;
-} */
-
 /* media queries */
+
+/* Small devices (tablets, 360px and below) */
+@media screen and (max-width: 360px){
+  #events-table {
+    /* make all services cards same height for consistency */
+    font-size: 0.8em;
+  }
+  #student-discount {
+    font-size: 0.9em;
+  }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px){
